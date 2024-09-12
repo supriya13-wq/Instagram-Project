@@ -2,19 +2,27 @@
 This repository contains the SQL schema and sample data for a simplified Instagram clone. The schema includes tables for users, posts, likes, comments, and other essential features required for a social media platform. The provided SQL file initializes the users table with sample user data, showcasing how to insert records with timestamps.
 
 1. Instagram Clone Database Schema & Data Insertion
-The first part of the project involves building a foundational database schema for an Instagram-like social media platform. The schema includes the following tables:
+The first part of the project focuses on building a foundational database schema that powers a simplified Instagram clone. Key tables include:
 
-Users: Stores basic information like user IDs, usernames, and timestamps for when the account was created.
-Posts: Contains information about the posts made by users, including the post's content, the timestamp, and references to the users who created them.
-Comments: A table designed to store user comments on posts, along with the timestamp and associated post and user IDs.
-Likes: A simple table tracking which user liked which post, providing basic functionality to simulate the 'like' feature.
-The database is seeded with a dataset of users, making it ready for testing and further development. The users table is initialized with a set of 50 sample user records, each containing a username and timestamp for when the account was created.
+Users Table: Contains user information, including unique user IDs, usernames, and timestamps of account creation.
+Posts Table: Tracks posts made by users, including post content, creation time, and the user responsible for the post.
+Comments Table: Stores user comments on posts, referencing both the post ID and the user ID.
+Likes Table: Captures the 'like' interactions between users and posts, maintaining a record of which user liked which post.
+A dataset is seeded into the database, and 50 sample user records are pre-loaded into the Users table, making the schema ready for analysis and further development.
 
 2. Real-World Problem Solving with SQL
-The second part of this project tackles various real-world queries using SQL, simulating the types of analytical queries that might be executed on an actual social media platform. Some examples of real-world problems answered in this part include:
+The second part of the project tackles complex, real-world queries to extract meaningful insights from the database. These queries reflect the types of analytical questions a social media platform would ask to enhance its user engagement, improve features, and address operational challenges.
 
-Finding Active Users: Identifying users who have posted or interacted (liked, commented) most frequently over a given time period.
-Popular Posts: Writing queries to find which posts have the most likes and engagement.
-User Interaction Analysis: Queries to identify which users interact with each other the most, either through likes or comments.
-Content Trends: Analyzing which type of posts (by keywords or hashtags) generate the highest engagement.
-Growth Analytics: Tracking user growth by calculating how many users registered during specific time periods.
+Some of the real-world SQL queries implemented include:
+Oldest Users: Identify the five longest-standing users on the platform.
+User Registration Analysis: Determine which day of the week sees the highest user registrations, to guide advertising and engagement campaigns.
+Inactive Users: Identify users who have never posted a photo, in order to target them with engagement campaigns.
+Contest Winner: Determine the user who has received the most likes on a single photo during a contest.
+Average User Posts: Calculate how many times the average user posts.
+Top Hashtags: Identify the five most popular hashtags used across all posts.
+Bot Detection: Find users who have liked every photo on the platform, signaling potential bot behavior.
+Celebrity Accounts: Detect users who have never commented on any post, a common behavior of celebrity or passive accounts.
+Advanced Analytical Challenges:
+Bot and Celebrity Detection: Calculate the percentage of users who either never commented on a post or have commented on every photo.
+User Interaction Analysis: Discover patterns in user activity, identifying frequent likers and commenters to understand interaction dynamics.
+These queries offer practical insights into user behavior, content engagement, and platform health, and the project simulates real-world business use cases for a social media platform. The combination of database schema design and complex analytical SQL queries showcases a deep understanding of both data modeling and query optimization.
