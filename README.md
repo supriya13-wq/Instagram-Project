@@ -14,15 +14,15 @@ A dataset is seeded into the database, and 50 sample user records are pre-loaded
 The second part of the project tackles complex, real-world queries to extract meaningful insights from the database. These queries reflect the types of analytical questions a social media platform would ask to enhance its user engagement, improve features, and address operational challenges.
 
 Some of the real-world SQL queries implemented include:
-Oldest Users: Identify the five longest-standing users on the platform.
-User Registration Analysis: Determine which day of the week sees the highest user registrations, to guide advertising and engagement campaigns.
-Inactive Users: Identify users who have never posted a photo, in order to target them with engagement campaigns.
-Contest Winner: Determine the user who has received the most likes on a single photo during a contest.
-Average User Posts: Calculate how many times the average user posts.
-Top Hashtags: Identify the five most popular hashtags used across all posts.
-Bot Detection: Find users who have liked every photo on the platform, signaling potential bot behavior.
-Celebrity Accounts: Detect users who have never commented on any post, a common behavior of celebrity or passive accounts.
-Advanced Analytical Challenges:
-Bot and Celebrity Detection: Calculate the percentage of users who either never commented on a post or have commented on every photo.
-User Interaction Analysis: Discover patterns in user activity, identifying frequent likers and commenters to understand interaction dynamics.
-These queries offer practical insights into user behavior, content engagement, and platform health, and the project simulates real-world business use cases for a social media platform. The combination of database schema design and complex analytical SQL queries showcases a deep understanding of both data modeling and query optimization.
+1. Oldest Users: Identify the five longest-standing users on the platform.
+2. User Registration Analysis: Determine which day of the week sees the highest user registrations, to guide advertising and engagement campaigns.
+3. Inactive Users: Identify users who have never posted a photo, in order to target them with engagement campaigns.
+4. Contest Winner: Determine the user who has received the most likes on a single photo during a contest.
+5. Average User Posts: Calculate how many times the average user posts.
+6. Top Hashtags: Identify the five most popular hashtags used across all posts.
+7. Bot Detection: Find users who have liked every photo on the platform, signaling potential bot behavior.
+8. Celebrity Accounts: Detect users who have never commented on any post, a common behavior of celebrity or passive accounts.
+9. Advanced Analytical Challenges:
+10. Bot and Celebrity Detection: Calculate the percentage of users who either never commented on a post or have commented on every photo.
+11. User Interaction Analysis: Discover patterns in user activity, identifying frequent likers and commenters to understand interaction dynamics.
+12. These queries offer practical insights into user behavior, content engagement, and platform health, and the project simulates real-world business use cases for a social media platform. The combination of database schema design and complex analytical SQL queries showcases a deep understanding of both data modeling and query optimization.
